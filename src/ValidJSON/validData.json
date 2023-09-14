@@ -1,0 +1,78 @@
+{
+  "clothes": {
+    "women": [
+      {
+        "id":1,
+        "type": "shirt",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwyY2qms_E6HdTx5PikIJsLOZm8_kQW_CnFA&usqp=CAU",
+        "title": "V Neck Shirt",
+        "price": "1000"
+       
+      },
+      {
+        "id":2,
+        "type": "shirt",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSTZ8PhxUifnS-mBTtQfi1egM0T8dE_Oj9iXD_g1A78mjlNeyn2TQLLa6fOuxgTh-BDb0&usqp=CAU",
+        "title": "Full Sleeve Shirt",
+        "price": "1300"
+       
+      },
+      {
+        "id":3,
+        "type": "shirt",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSk_A0F0_ZcWsmdG4JQ53hs1xrow-8npMxQ7PqLS67pueD_11w6HpNGiF_wveWPu5G_mY&usqp=CAU",
+        "title": "Purple Shirt",
+        "price": "1500"
+      
+      },
+      {
+        "id":4,
+        "type": "dresses",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSt4XPp03Y4MZh0yP-Bg9o8LSnBu4XI_GpLA&usqp=CAU",
+        "title": "Floral dress",
+        "price": "2000"
+        
+      },
+      {
+        "id":5,
+        "type": "dresses",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAqOydSYfpDWo41YtNezvBwreQVPsSkhFz-Q&usqp=CAU",
+        "title": "Cotton dress",
+        "price": "2300"
+       
+      },
+      {
+        "id":6,
+        "type": "dresses",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQTonHVfKELqCbMWsiKOBgf0uX5Cq9wubudA&usqp=CAU",
+        "title": "Blue ethnic dress",
+        "price": "5000"
+       
+      },
+      {
+        "id":7,
+        "type": "shorts",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjyWJB_LqK7MgPsoMRIkPTrcD9obdg050drg&usqp=CAU",
+        "title": "White belted shorts",
+        "price": "2900"
+        
+      },
+      {
+        "id":8,
+        "type": "shorts",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh9-IWOlK2FfxPhw64eGzxF8ZFXjmWWaWQIw&usqp=CAU",
+        "title": "White Cotton shorts",
+        "price": "1300"
+      
+      },
+      {
+        "id":9,
+        "type": "shorts",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXe19T_f8zCD0iG6NL3z83qKq1mLUXkouaOYlvUjNu7DJMC_BM-srryppt7NNLZ5siyMY&usqp=CAU",
+        "title": "Blue Jeans shorts",
+        "price": "900"
+       
+      }
+    ]
+  }
+}

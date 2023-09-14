@@ -1,0 +1,94 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  position: relative;
+  // align-items: center;
+  .cart-items {
+    display: flex;
+    // justify-content: space-around;
+    gap: 30px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px; /* Add padding to the bottom of cart items */
+    margin-top: 20px; /* Add margin to the top of cart items */
+    img {
+      width: 100%;
+      max-width: 130px;
+    }
+    // justify-content: space-around;
+    // align-items: center;
+    .product-container {
+      .remoove-item{
+      .product-qty {
+        display: flex;
+        border: 1px solid coral;
+        width: 100px;
+        height: 30px;
+        justify-content: space-around;
+        align-items: center;
+        .minus-icon {
+          color: coral;
+          font-size: 14px;
+        }
+        .plus-icon {
+          color: coral;
+          font-size: 14px;
+        }
+        .product-quantity {
+          font-size: 17px;
+          font-weight: 500;
+        }
+      }
+    }
+      .product-detail {
+        p {
+          font-size: 18px;
+          color: gray;
+          font-weight: 700;
+        }
+      }
+      .remove-btn{
+        border: 1px solid coral;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 99px;
+        border-radius: 3px;
+        color: coral;
+      }
+      
+    }
+  }
+  .subtotal {
+    position: absolute;
+    top: 23px;
+    right: 89px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 8px -6px #edeade;
+    width: 210px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    max-width: 253px;
+    width: 100%;
+    height: auto; /* Adjust the height property */
+    .subtotal-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; /* Center items vertically */
+      margin-bottom: 10px; /* Add spacing between "Subtotal" and the button */
+    }
+    .checkout{
+      border: none;
+      border-radius: 4px;
+      max-width: 212px;
+      height: 35px;
+      width: 100%;
+      background-color: coral;
+      color: white;
+      font-weight: 700px;
+    }
+  }
+}

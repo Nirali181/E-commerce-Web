@@ -1,0 +1,73 @@
+@import "./variables";
+
+@mixin FontRegular($color) {
+    font-family: $fontFamily;
+    font-style: normal;
+    font-weight: 400;
+    color: $color;
+}
+
+@mixin FontMedium($color) {
+    font-family: $fontFamily;
+    font-style: normal;
+    font-weight: 500;
+    color: $color;
+}
+
+@mixin FontSemiBold($color) {
+    font-family: $fontFamily;
+    font-style: normal;
+    color: $color;
+    font-weight: 600;
+
+}
+
+// gilroy
+@mixin FontGilroyRegular($color) {
+    font-family: $fontGilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    color: $color;
+}
+
+@mixin FontGilroyBold($color) {
+    font-family: $fontGilroy-Bold;
+    font-style: normal;
+    font-weight: 700;
+    color: $color;
+}
+
+
+@mixin mobileScreen {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}
+
+/* Small screen devices (600px and above) */
+@mixin tabletScreen {
+    @media (min-width: #{$tablet}) {
+        @content;
+    }
+}
+
+/* Medium screen devices (768px and above) */
+@mixin ipadScreens {
+    @media (min-width:#{$ipad}) {
+        @content;
+    }
+}
+
+/* Big screen devices (889px and above) */
+@mixin laptopScreen {
+    @media (min-width: #{$laptop}) {
+        @content;
+    }
+}
+
+/* Extra big screen devices (1200px and above) */
+@mixin largeScreen {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
